@@ -1,0 +1,90 @@
+.contact-form input[readonly='true']{
+	background-color:#E7E7E7;
+	border:1px solid lightgray;
+}
+.overlay{
+	background:transparent;
+	position:relative;
+	height:350px;
+	width:100%;
+	pointer-events:none;
+}
+
+.password-textbox{
+	width:96.3333%; 
+	border:1px solid #E7E7E7; 
+	line-height:.8; 
+	padding:8px;
+}
+
+.strikethrough{
+	text-decoration:line-through !important; 
+	display:inline !important;
+	background:none !important;
+	color:#999999 !important;
+	margin-left:0 !important;
+	font-size:22px !important;
+	padding-left:5px !important;
+}
+
+/****************** DROPDOWN MENU CSS *****************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+	z-index:1001 !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	width:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* Links inside the dropdown */
+.dropdown-content a{
+	font-size:22px !important;
+    color: black  !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	width:190px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container-fluid{
+	font-family:arial;
+}
+
+/******* SELECT MENU **********/
+.contact-form select{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 8px;
+	display: block;
+	width: 96.3333%;
+	outline: none;
+	text-transform: capitalize;
+}
+
+/*********** ERROR MESSAGES ***********/
+.error{
+	color:white;
+	font-size:20px;
+	text-align:center;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color:rgba(207, 76, 76, 0.88);
+	padding:10px 0 10px 0;
+	width:98%;
+	font-weight:bold;
+}
